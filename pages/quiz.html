@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz | Água Segura</title>
+  <meta name="description" content="Quiz interativo com 15 perguntas sobre água potável, tratamento, saúde, saneamento e economia de água.">
+  <meta name="theme-color" content="#073B5C">
+  <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+  <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('as-tema');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}</script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body data-page="quiz">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="../index.html" aria-label="Água Segura — página inicial">
+        <img src="../assets/images/logo.svg" alt="" width="40" height="40">
+        <span>Água Segura</span>
+      </a>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Ativar tema escuro" aria-pressed="false">🌙</button>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu de navegação"><span class="bars"></span></button>
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../pages/agua-potavel.html">Água potável</a></li>
+          <li><a href="../pages/tratamento.html">Tratamento</a></li>
+          <li><a href="../pages/armazenamento.html">Armazenamento</a></li>
+          <li><a href="../pages/saude.html">Saúde</a></li>
+          <li><a href="../pages/saneamento.html">Saneamento</a></li>
+          <li><a href="../pages/economia.html">Economia de água</a></li>
+          <li><a href="../pages/quiz.html" class="nav-quiz" aria-current="page">Quiz</a></li>
+          <li><a href="../pages/sobre.html">Sobre o projeto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Você está em"><a href="../index.html">Início</a> / Quiz</nav>
+        <span class="badge-icon" aria-hidden="true">🧠</span>
+        <h1>Quiz Água Segura</h1>
+        <p>Teste o que você aprendeu sobre água potável, saneamento e consumo consciente.</p>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 40C180 90 360 90 540 55C720 20 900 10 1080 40C1220 62 1340 70 1440 50V90H0Z"/></svg>
+    </section>
+    <section class="section" aria-label="Quiz interativo">
+      <div class="narrow">
+        <div class="quiz" id="quiz-root">
+          <noscript><p>O quiz precisa de JavaScript para funcionar. Ative o JavaScript no navegador e recarregue a página.</p></noscript>
+        </div>
+        <p class="text-center" style="margin-top:1.5rem">Quer revisar o conteúdo? Veja <a href="../pages/agua-potavel.html">Água potável</a>, <a href="../pages/saneamento.html">Saneamento</a> e <a href="../pages/saude.html">Saúde e prevenção</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="footer-brand"><img src="../assets/images/logo.svg" alt="" width="36" height="36">Água Segura</span>
+          <p>Plataforma educativa sobre água potável, qualidade da água, higiene, saneamento básico e prevenção de doenças.</p>
+          <p><strong>ODS 6 da ONU:</strong> água potável e saneamento para todos.</p>
+        </div>
+        <div>
+          <h2>Links importantes</h2>
+          <ul>
+            <li><a href="../pages/agua-potavel.html">Água potável</a></li>
+            <li><a href="../pages/tratamento.html">Tratamento da água</a></li>
+            <li><a href="../pages/armazenamento.html">Armazenamento correto</a></li>
+            <li><a href="../pages/saude.html">Saúde e prevenção</a></li>
+            <li><a href="../pages/saneamento.html">Saneamento básico</a></li>
+            <li><a href="../pages/economia.html">Economia de água</a></li>
+            <li><a href="../pages/quiz.html">Quiz</a></li>
+            <li><a href="../pages/sobre.html">Sobre o projeto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Fontes de informação</h2>
+          <ul>
+          <li><a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">Organização Mundial da Saúde (OMS)<span class="sr-only"> (abre em nova aba)</span></a></li>
+          <li><a href="https://www.paho.org/pt" target="_blank" rel="noopener noreferrer">Organização Pan-Americana da Saúde (OPAS)<span class="sr-only"> (abre em nova aba)</span></a></li>
+          <li><a href="https://www.gov.br/saude/pt-br" target="_blank" rel="noopener noreferrer">Ministério da Saúde<span class="sr-only"> (abre em nova aba)</span></a></li>
+          <li><a href="https://www.gov.br/ana/pt-br" target="_blank" rel="noopener noreferrer">Agência Nacional de Águas e Saneamento Básico (ANA)<span class="sr-only"> (abre em nova aba)</span></a></li>
+          <li><a href="https://brasil.un.org/pt-br/sdgs/6" target="_blank" rel="noopener noreferrer">ONU Brasil — ODS 6<span class="sr-only"> (abre em nova aba)</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-note">
+        <p><strong>Aviso:</strong> este site tem finalidade exclusivamente educativa. Ele não realiza análises laboratoriais, não certifica a potabilidade da água e não substitui orientações de órgãos de saúde ou de profissionais especializados.</p>
+        <p>Projeto acadêmico relacionado ao Objetivo de Desenvolvimento Sustentável 6 (ODS 6).</p>
+      </div>
+    </div>
+  </footer>
+  <button type="button" class="to-top" id="to-top" aria-label="Voltar ao topo">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/interactions.js" defer></script>
+  <script src="../js/quiz.js" defer></script>
+</body>
+</html>
